@@ -1,13 +1,127 @@
-body {
+*{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
+/* --------App.js--------- */
+.app{
+  background-color: #F8F9FA;
+}
+/* ---------End App.js---------- */
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* --------------- Navigation----------------- */
+.nav-img{
+  width: 70%;
 }
+.navbar-collapse .navbar-nav{
+ text-align: right;
+ float: right;
+}
+.navbar-collapse .navbar-nav a{
+  font-size: 20px;
+  color: black;
+}
+nav{
+  background-color: #ffffff;
+  
+}
+/* nav .active{
+  border-bottom: 8px solid #4DC942;
+} */
+/* --------------------End Navigation--------------------------- */
+
+/* --------------------Menu------------------------------ */
+.menu{
+  background-color: #ffffff;
+}
+.menu .col-md-2{
+  border: 1px solid rgb(217, 214, 214);
+  border-top: none;
+}
+.col-md-2 ul{
+  list-style: none;
+}
+.col-md-2 ul li a{
+  text-decoration: none;
+  color: black;
+  font-size: 9.5px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.col-md-2 ul ul{
+  display: none;
+}
+.col-md-2 ul li:hover > ul{
+  display: inherit;
+}
+.delete .delete-icon{
+  background-color: #4DC942;
+  color: #ffffff;
+  float: right;
+  width: 50px;
+  height: 45px;
+}
+/* ------------------End Menu ------------------------ */
+
+/* ----------------------Event1------------------------ */
+#carouselExampleControls{
+  background-color: #ffffff;
+  height: 100%;
+}
+.p-event1{
+     padding: 20px;
+     margin: 5px;
+}
+.img-event1{
+  margin: 10px;
+  width: 20px;
+}
+.alarm{
+  margin-right: 5px;
+}
+.p-alarm{
+  padding-top: 50px;
+  margin: 5px;
+}
+.tof-event1{
+  width: 100%;
+}
+/* ---------------------End Event1----------------------------- */
+
+/* -------------------------Event2, 3, 4---------------------------- */
+.rect1{
+  height: 175px;
+}
+h6{
+  font-size: 13px;
+}
+.a-event a{
+    text-decoration: none;
+    color: #4DC942;
+}
+/* -----------------------End Events2, 3, 4------------------------- */
+
+/* ------------------------Footer--------------------------------- */
+/* .bg-dark .col-md-6 .f-droite{
+  float: right;
+} */
+
+
+.bg-dark .col-md-6 .bg-white{
+  border-radius: 6px;
+  padding: 10px;
+}
+.bg-dark .col-md-6 .f-droite img{
+   margin: 5px;
+   align-items: center;
+}
+.footer-hr{
+  color: white;
+  font-weight: 900;
+
+}
+.footer p{
+  font-size: 15px;
+  float: left;
+}
+/* ------------------------End footer-------------------------------- */
