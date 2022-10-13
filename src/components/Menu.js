@@ -8,7 +8,7 @@ export class Menu extends Component {
         <div className='menu py-5 my-5 container shadow'>
           <div className='row '>
             <div className='col-md-2 col-sm-12 col-xs-12'>
-              <input type="text" className='text-muted border-0 text-sm'placeholder='Que recherchez-vous?' />
+              <input type="search" className='text-muted border-0 text-sm'placeholder='Que recherchez-vous?' />
             </div>
             <div className='col-md-2 col-sm-12 col-xs-12'>
               <ul>

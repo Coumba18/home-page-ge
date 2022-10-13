@@ -52,7 +52,7 @@ export class Event2 extends Component {
  </div>
 </div>
 </div>
-<a href='#'>Voir les événements</a>
+<a href='#'className='py-4'>Voir les événements</a>
 </div>
       
     )

@@ -49,7 +49,7 @@ export class Events4 extends Component {
             </div>
         </div>
         </div>
-        <a href='#' >Voir les 7 événements</a>
+        <a href='#' className='pt-4' >Voir les 7 événements</a>
       </div>
 
     </div>

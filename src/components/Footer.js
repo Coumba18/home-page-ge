@@ -9,12 +9,12 @@ import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 export class Footer extends Component {
   render() {
     return (
-      <div className='container-fluid footer py-5 bg-dark'>
+      <div className='container-fluid footer pt-4 mt-5 bg-dark'>
         <div className='row bg-dark '>
-        <div className='col-md-9 col-sm-12 cool-xs-12'>
-            <img src={image5} alt="" className='f-job pb-3'/>
+        <div className='col-md-9 col-sm-12 col-xs-12'>
+            <img src={image5} alt="" className='f-job pb-4'/>
         </div>
-        <div className='col-md-3 col-sm-12 cool-xs-12 text-sm '>
+        <div className='col-md-3 col-sm-12 col-xs-12 text-sm '>
           <div className='f-droite'>
           <button type='button' className='bg-white border-0'>
                 <img src={FRA} alt="" />
@@ -34,26 +34,26 @@ export class Footer extends Component {
         <div className='row bg-dark text-white pt-4'>
         <hr className='footer-hr'/>
         <div className='col-md-3 col-sm-12 col-xs-12'>
-            <p>S'inscrire</p>
-            <p>Chercher une offre</p>
-            <p>Découvrir les entreprises</p>
-            <p>Evénements recrutement</p>
-            <p>Conseils recrutement</p>
+            <p>S'inscrire<br/>
+            Chercher une offre<br/>
+            Découvrir les entreprises<br/>
+            Evénements recrutement<br/>
+            Conseils recrutement</p>
         </div>
         <div className='col-md-3 col-sm-12 col-xs-12'>
-            <p>Écoles & Universités</p>
-            <p>Notre offre Career Center</p>
-            <p>Nos établissements partenaires</p>
+            <p>Écoles & Universités<br/>
+            Notre offre Career Center<br/>
+            Nos établissements partenaires</p>
         </div>
         <div className='col-md-3 col-sm-12 col-xs-12'>
-            <p>Entreprises</p>
-            <p>Notre offre Entreprise</p>
+            <p>Entreprises<br/>
+            Notre offre Entreprise</p>
         </div>
         <div className='col-md-3 col-sm-12 col-xs-12'>
-            <p>JobTeaser</p>
-            <p>Nous rejoindre</p>
-            <p>À propos</p>
-            <p>Rencontrer notre équipe</p>
+            <p>JobTeaser<br/>
+            Nous rejoindre<br/>
+            À propos<br/>
+            Rencontrer notre équipe</p>
         </div>
         </div>
            <div className='row bg-dark text-white pt-4'>

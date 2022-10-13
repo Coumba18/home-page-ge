@@ -11,7 +11,7 @@ export class Event1 extends Component {
     return (
       <div className='container event1'>
         <h4 className='ms-2'>Evénements carrière à ne pas manquer</h4>
-        <div id="carouselExampleControls" className="carousel slide mt-5 shadow" data-bs-ride="carousel">
+        <div id="carouselExampleSlidesOnly" className="carousel slide mt-5 shadow" data-bs-ride="carousel">
         <div className="carousel-inner">
          <div className="carousel-item active">
           <div className='row'>
@@ -71,14 +71,6 @@ export class Event1 extends Component {
          </div>
        </div>
        
-  <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span className="visually-hidden">Previous</span>
-  </button>
-  <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-    <span className="carousel-control-next-icon" aria-hidden="true"></span>
-    <span className="visually-hidden">Next</span>
-  </button>
 </div>
 </div>
       
