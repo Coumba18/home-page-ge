@@ -5,6 +5,7 @@
 }
 /* --------App.js--------- */
 .app{
+  overflow: hidden;
   background-color: #F8F9FA;
 }
 /* ---------End App.js---------- */
@@ -77,12 +78,12 @@ nav{
   width: 20px;
 }
 .alarm{
-  margin-right: 5px;
-}
-.p-alarm{
+  margin: 10px;
+} 
+/* .p-alarm{
   padding-top: 50px;
   margin: 5px;
-}
+} */
 .tof-event1{
   width: 100%;
 }
@@ -90,7 +91,7 @@ nav{
 
 /* -------------------------Event2, 3, 4---------------------------- */
 .rect1{
-  height: 175px;
+  height: 178px;
 }
 h6{
   font-size: 13px;
@@ -107,18 +108,20 @@ h6{
 } */
 
 
-.bg-dark .col-md-6 .bg-white{
+  .bg-dark .col-md-3 .bg-white{
   border-radius: 6px;
-  padding: 10px;
-}
-.bg-dark .col-md-6 .f-droite img{
+}  
+.bg-dark .col-md-3 .f-droite img{
    margin: 5px;
    align-items: center;
-}
+} 
 .footer-hr{
   color: white;
   font-weight: 900;
 
+}
+.f-job{
+  height: 50px;
 }
 .footer p{
   font-size: 15px;

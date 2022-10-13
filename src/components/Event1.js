@@ -9,18 +9,18 @@ import Rectangle420 from "../images/Rectangle420.png";
 export class Event1 extends Component {
   render() {
     return (
-      <div className='event1'>
+      <div className='container event1'>
         <h4 className='ms-2'>Evénements carrière à ne pas manquer</h4>
         <div id="carouselExampleControls" className="carousel slide mt-5 shadow" data-bs-ride="carousel">
         <div className="carousel-inner">
          <div className="carousel-item active">
           <div className='row'>
-            <div className='col-md-6 col-sm-12 col-xs-12'>
+            <div className='col-md-6 col-sm-12 col-xs-12 ps-4'>
               <p className='p-event1 text-muted'>DU JEUDI  22 SEPTEMBRE 2022 Ä 10:00 AU SAMEDI 22 OCTOBRE 2022 Ä 18:00</p>
               <p className='p-event1'>Google warsaw - Women in tech mentoring program</p>
               <p className='p-event1'>En ligne</p>
-              <p className='text-small'><img src={Google} alt="" className='img-event1'/>Google</p>
-              <p className='p-alarm text-muted'><AlarmOffIcon className='alarm'/>Inscription close</p>
+              <p className='text-small ps-3'><img src={Google} alt="" className='img-event1'/>Google</p>
+              <p className='p-alarm text-muted ps-3'><AlarmOffIcon className='alarm'/>Inscription close</p>
             </div>
             <div className='col-md-6 col-sm-12 col-xs-12'>
               <img src={Rectangle42} alt="" className='tof-event1 d-block w-100'/>
@@ -29,12 +29,12 @@ export class Event1 extends Component {
          </div>
          <div className="carousel-item">
             <div className='row'>
-              <div className='col-md-6 col-sm-12 col-xs-12'>
+              <div className='col-md-6 col-sm-12 col-xs-12 ps-4'>
                 <p className='p-event1 text-muted'>DU JEUDI  22 SEPTEMBRE 2022 Ä 10:00 AU SAMEDI 22 OCTOBRE 2022 Ä 18:00</p>
                 <p className='p-event1'>Google warsaw - Women in tech mentoring program</p>
                 <p className='p-event1'>En ligne</p>
-                <p className='text-small'><img src={Google} alt="" className='img-event1'/>Google</p>
-                <p className='p-alarm text-muted'><AlarmOffIcon className='alarm'/>Inscription close</p>
+                <p className='text-small ps-3'><img src={Google} alt="" className='img-event1'/>Google</p>
+                <p className='p-alarm text-muted ps-3'><AlarmOffIcon className='alarm'/>Inscription close</p>
               </div>
               <div className='col-md-6 col-sm-12 col-xs-12'>
                 <img src={Rectangle422} alt="" className='tof-event1 d-block w-100'/>
@@ -43,12 +43,12 @@ export class Event1 extends Component {
          </div>
          <div className="carousel-item">
             <div className='row'>
-              <div className='col-md-6 col-sm-12 col-xs-12'>
+              <div className='col-md-6 col-sm-12 col-xs-12 ps-4'>
                 <p className='p-event1 text-muted'>DU JEUDI  22 SEPTEMBRE 2022 Ä 10:00 AU SAMEDI 22 OCTOBRE 2022 Ä 18:00</p>
                 <p className='p-event1'>Google warsaw - Women in tech mentoring program</p>
                 <p className='p-event1'>En ligne</p>
-                <p className='text-small'><img src={Google} alt="" className='img-event1'/>Google</p>
-                <p className='p-alarm text-muted'><AlarmOffIcon className='alarm'/>Inscription close</p>
+                <p className='text-small ps-3'><img src={Google} alt="" className='img-event1'/>Google</p>
+                <p className='p-alarm text-muted ps-3'><AlarmOffIcon className='alarm'/>Inscription close</p>
              </div>
              <div className='col-md-6 col-sm-12 col-xs-12'>
                 <img src={Rectangle421} alt="" className='tof-event1 d-block w-100'/>
@@ -57,12 +57,12 @@ export class Event1 extends Component {
          </div>
          <div className="carousel-item">
             <div className='row'>
-              <div className='col-md-6 col-sm-12 col-xs-12'>
+              <div className='col-md-6 col-sm-12 col-xs-12 ps-4'>
                 <p className='p-event1 text-muted'>DU JEUDI  22 SEPTEMBRE 2022 Ä 10:00 AU SAMEDI 22 OCTOBRE 2022 Ä 18:00</p>
                 <p className='p-event1'>Google warsaw - Women in tech mentoring program</p>
                 <p className='p-event1'>En ligne</p>
-                <p className='text-small'><img src={Google} alt="" className='img-event1'/>Google</p>
-                <p className='p-alarm text-muted'><AlarmOffIcon className='alarm'/>Inscription close</p>
+                <p className='text-small ps-3'><img src={Google} alt="" className='img-event1'/>Google</p>
+                <p className='p-alarm text-muted ps-3'><AlarmOffIcon className='alarm'/>Inscription close</p>
              </div>
              <div className='col-md-6 col-sm-12 col-xs-12'>
                 <img src={Rectangle420} alt="" className='tof-event1 d-block w-100'/>

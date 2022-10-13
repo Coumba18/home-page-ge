@@ -13,14 +13,14 @@ function App() {
   return (
     <div className="app ">
       <Navbar/>
-      <div className='container-fluid'>
+
       <Menu/>
       <Event1/>
       <Event2/>
       <Event3/>
       <Events4/>
       <Footer/>
-      </div>
+      
       
     </div>
   );

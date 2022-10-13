@@ -6,9 +6,9 @@ export class Menu extends Component {
   render() {
     return (
         <div className='menu py-5 my-5 container shadow'>
-          <div className='row'>
+          <div className='row '>
             <div className='col-md-2 col-sm-12 col-xs-12'>
-              <p className='text-muted'>Que recherchez-vous?</p>
+              <input type="text" className='text-muted border-0 text-sm'placeholder='Que recherchez-vous?' />
             </div>
             <div className='col-md-2 col-sm-12 col-xs-12'>
               <ul>

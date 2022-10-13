@@ -9,21 +9,24 @@ import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 export class Footer extends Component {
   render() {
     return (
-      <div className='footer py-5 text-center'>
-        <div className='row bg-dark pt-4'>
-        <div className='col-md-6 col-sm-12 cool-xs-12'>
-            <img src={image5} alt="" />
+      <div className='container-fluid footer py-5 bg-dark'>
+        <div className='row bg-dark '>
+        <div className='col-md-9 col-sm-12 cool-xs-12'>
+            <img src={image5} alt="" className='f-job pb-3'/>
         </div>
-        <div className='col-md-6 col-sm-12 cool-xs-12'>
-          <div className='f-droite m-5'>
-          <span className='bg-white m-3'>
+        <div className='col-md-3 col-sm-12 cool-xs-12 text-sm '>
+          <div className='f-droite'>
+          <button type='button' className='bg-white border-0'>
                 <img src={FRA} alt="" />
-                français<span><ArrowDropDownIcon/></span>
-            </span>
+                français
+                <span>
+                  <ArrowDropDownIcon/>
+                  </span>
+            </button>
             <span>
-            <img src={Vector} alt="" />
-            <img src={Vector2} alt="" />
-            <img src={Vector1} alt="" />
+            <img src={Vector} alt="" className='f-logo'/>
+            <img src={Vector2} alt="" className='f-logo'/>
+            <img src={Vector1} alt="" className='f-logo'/>
             </span>
           </div>    
         </div>
