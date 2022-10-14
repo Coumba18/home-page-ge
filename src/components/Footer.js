@@ -31,7 +31,7 @@ export class Footer extends Component {
           </div>    
         </div>
         </div> 
-        <div className='row bg-dark text-white pt-4'>
+        <div className='row bg-dark text-white pt-4  text-center'>
         <hr className='footer-hr'/>
         <div className='col-md-3 col-sm-12 col-xs-12'>
             <p>S'inscrire<br/>
