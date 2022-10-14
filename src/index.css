@@ -26,6 +26,9 @@ nav{
   background-color: #ffffff;
   
 }
+.nav-item .nav-link{
+  color: #000000;
+}
 /* nav .active{
   border-bottom: 8px solid #4DC942;
 } */
@@ -39,7 +42,13 @@ nav{
   border: 1px solid rgb(217, 214, 214);
   border-top: none;
 }
-.col-md-2 ul{
+ .col-md-2 button:focus{
+  border: none;
+}
+.col-md-2 input:focus{
+  outline: 0px none #ffffff !important;
+}
+/* .col-md-2 ul{
   list-style: none;
 }
 .col-md-2 ul li a{
@@ -54,7 +63,7 @@ nav{
 }
 .col-md-2 ul li:hover > ul{
   display: inherit;
-}
+} */
 .delete .delete-icon{
   background-color: #4DC942;
   color: #ffffff;
