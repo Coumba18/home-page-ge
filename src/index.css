@@ -49,7 +49,7 @@ nav{
   outline: 0px none #ffffff !important;
 }
 .col-md-2 input{
-  width: 160px;
+  width: 100%;
   font-size: 15px;
 }
 /* .col-md-2 ul{
