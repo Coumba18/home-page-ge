@@ -8,8 +8,8 @@ export class Menu extends Component {
         <div className='menu py-5 my-5 container shadow'>
           <div className='row'>
             <div className='col-md-2 col-sm-12 col-xs-12 text-muted position-relative'>
-               <span className='position-absolute start-0 bottom-5'><SearchIcon/></span>
-               <input type="search" className='ms-3 border-0 text-sm'placeholder='Que recherchez-vous?' />
+               {/* <span className='position-absolute start-0 bottom-5'><SearchIcon className='m-sear'/></span> */}
+               <input type="search" className='ms-1 border-0 text-sm'placeholder='Que recherchez-vous?' />
             </div>
             <div className='col-md-2 col-sm-12 col-xs-12'>
                 <div className="dropdown">
@@ -17,9 +17,9 @@ export class Menu extends Component {
                     Types d'événements
                     </button>
                     <ul className="dropdown-menu " aria-labelledby="dropdownMenuButton2">
-                      <li><a className="dropdown-item " href="#">Action</a></li>
-                      <li><a className="dropdown-item" href="#">Another</a></li>
-                      <li><a className="dropdown-item" href="#">Something</a></li>
+                      <li><a className="dropdown-item " href="#">Accompagnement de carrière</a></li>
+                      <li><a className="dropdown-item" href="#">Session de recrutement</a></li>
+                      <li><a className="dropdown-item" href="#">Rencontre professionnelle</a></li>
                     </ul>
                 </div>
             </div>
@@ -29,9 +29,10 @@ export class Menu extends Component {
                     Dates
                     </button>
                     <ul className="dropdown-menu " aria-labelledby="dropdownMenuButton2">
-                      <li><a className="dropdown-item " href="#">Action</a></li>
-                      <li><a className="dropdown-item" href="#">Another</a></li>
-                      <li><a className="dropdown-item" href="#">Something</a></li>
+                      <li><a className="dropdown-item " href="#">Aujourd'hui</a></li>
+                      <li><a className="dropdown-item" href="#">Semaine prochaine</a></li>
+                      <li><a className="dropdown-item" href="#">Ce mois-ci</a></li>
+                      <li><a className="dropdown-item" href="#">Le mois prochain</a></li>
                     </ul>
                 </div>
             </div>
@@ -41,9 +42,29 @@ export class Menu extends Component {
                     Lieux
                     </button>
                     <ul className="dropdown-menu " aria-labelledby="dropdownMenuButton2">
-                      <li><a className="dropdown-item " href="#">Action</a></li>
-                      <li><a className="dropdown-item" href="#">Another</a></li>
-                      <li><a className="dropdown-item" href="#">Something</a></li>
+                      <li><a className="dropdown-item " href="#">En ligne</a></li>
+                      <li><a className="dropdown-item" href="#">
+                        Région
+                        <ul className='group text-muted me-5'>
+                        <li className="list-group-item me-5">
+                           <input className="" type="checkbox" value="" aria-label="..."/>
+                           Dakar
+                        </li>
+                        <li className="list-group-item me-5 ">
+                           <input className="color" type="checkbox" value="" aria-label="..."/>
+                           Thiès
+                        </li>
+                        <li className="list-group-item me-5">
+                           <input className="" type="checkbox" value="" aria-label="..."/>
+                           Diourbel
+                        </li>
+                        <li className="list-group-item me-5">
+                           <input className="" type="checkbox" value="" aria-label="..."/>
+                          Saint-Louis
+                        </li>
+                        </ul>
+                        </a></li>
+                                        
                     </ul>
                 </div>
             </div>
@@ -53,9 +74,10 @@ export class Menu extends Component {
                     Secteurs d'activités
                     </button>
                     <ul className="dropdown-menu " aria-labelledby="dropdownMenuButton2">
-                      <li><a className="dropdown-item " href="#">Action</a></li>
-                      <li><a className="dropdown-item" href="#">Another</a></li>
-                      <li><a className="dropdown-item" href="#">Something</a></li>
+                      <li><a className="dropdown-item " href="#">Finances</a></li>
+                      <li><a className="dropdown-item" href="#">Industries</a></li>
+                      <li><a className="dropdown-item" href="#">Elevage</a></li>
+                      <li><a className="dropdown-item" href="#">Commerce</a></li>
                     </ul>
                 </div>
             </div>

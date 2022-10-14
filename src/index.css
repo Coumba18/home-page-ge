@@ -29,6 +29,9 @@ nav{
 .nav-item .nav-link{
   color: #000000;
 }
+.dropdown-menu .key{
+  width: 20px;
+}
 /* nav .active{
   border-bottom: 8px solid #4DC942;
 } */
@@ -48,10 +51,25 @@ nav{
 .col-md-2 input:focus{
   outline: 0px none #ffffff !important;
 }
+.col-md-2 .m-sear{
+  width: 15px;
+}
 .col-md-2 input{
   width: 100%;
   font-size: 15px;
 }
+.col-md-2 .dropdown-toggle{
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 13px;
+  font-weight: 500;
+}
+.col-md-2 .list-group-item:focus-within{
+  color: #4DC942;
+}
+/* input[type="checkbox"]::before{
+  background-color: #4DC942;
+} */
 /* .col-md-2 ul{
   list-style: none;
 }
@@ -88,7 +106,8 @@ nav{
 }
 .img-event1{
   margin: 10px;
-  width: 20px;
+  width: 25px;
+  height: 25px;
 }
 .alarm{
   margin: 10px;

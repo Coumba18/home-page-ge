@@ -15,14 +15,14 @@ export class Footer extends Component {
             <img src={image5} alt="" className='f-job pb-4'/>
         </div>
         <div className='col-md-3 col-sm-12 col-xs-12 text-sm '>
-          <div className='f-droite'>
-          <button type='button' className='bg-white border-0'>
+          <div className='f-droite pt-4'>
+          {/* <button type='button' className='bg-white border-0'>
                 <img src={FRA} alt="" />
                 français
                 <span>
                   <ArrowDropDownIcon/>
                   </span>
-            </button>
+            </button> */}
             <span>
             <img src={Vector} alt="" className='f-logo'/>
             <img src={Vector2} alt="" className='f-logo'/>
