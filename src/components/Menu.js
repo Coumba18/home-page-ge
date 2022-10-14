@@ -6,7 +6,7 @@ export class Menu extends Component {
   render() {
     return (
         <div className='menu py-5 my-5 container shadow'>
-          <div className='row'>
+          <div className='row text-sm'>
             <div className='col-md-2 col-sm-12 col-xs-12 text-muted position-relative'>
                {/* <span className='position-absolute start-0 bottom-5'><SearchIcon className='m-sear'/></span> */}
                <input type="search" className='ms-1 border-0 text-sm'placeholder='Que recherchez-vous?' />

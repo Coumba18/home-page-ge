@@ -19,7 +19,7 @@ export class Events4 extends Component {
                <p className="card-text mx-4"><small className="text-muted">En ligne</small></p>
                <p className='card-text mx-4'><img src={image9} alt=" petit"/><span className='ms-2'>Sollers consulting</span></p>
                <hr className=''/>
-               <p className='text-muted mx-4'><PeopleIcon/>56 étudiant sont intressée</p>
+               <p className='text-muted '><PeopleIcon/>56 étudiant sont intressée</p>
             </div>
         </div>
         </div>
@@ -32,7 +32,7 @@ export class Events4 extends Component {
                <p className="card-text mx-4"><small className="text-muted">En ligne</small></p>
                <p className='card-text mx-4'><img src={image9} alt=" petit"/><span className='ms-2'>Sollers consulting</span></p>
                <hr className=''/>
-               <p className='text-muted mx-4'><PeopleIcon/>56 étudiant sont intressée</p>
+               <p className='text-muted'><PeopleIcon/>56 étudiant sont intressée</p>
             </div>
         </div>
         </div>
@@ -45,7 +45,7 @@ export class Events4 extends Component {
                <p className="card-text mx-4"><small className="text-muted">En ligne</small></p>
                <p className='card-text mx-4'><img src={image9} alt=" petit"/><span className='ms-2'>Sollers consulting</span></p>
                <hr className=''/>
-               <p className='text-muted mx-4'><PeopleIcon/>56 étudiant sont intressée</p>
+               <p className='text-muted'><PeopleIcon/>56 étudiant sont intressée</p>
             </div>
         </div>
         </div>
