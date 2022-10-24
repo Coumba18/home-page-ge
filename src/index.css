@@ -38,7 +38,13 @@ nav{
 /* --------------------End Navigation--------------------------- */
 
 /* --------------------Menu------------------------------ */
+.menu .form-control{
+  width: 50%;
+}
 .menu{
+  text-align: center;
+}
+/* .menu{
   background-color: #ffffff;
 }
 .menu .col-md-2{
@@ -60,39 +66,20 @@ nav{
 }
 .col-md-2 .dropdown-toggle{
   text-transform: uppercase;
-  /* text-align: center; */
   font-size: 10px;
   font-weight: 500;
 }
 .col-md-2 .list-group-item:focus-within{
   color: #4DC942;
 }
-/* input[type="checkbox"]::before{
-  background-color: #4DC942;
-} */
-/* .col-md-2 ul{
-  list-style: none;
-}
-.col-md-2 ul li a{
-  text-decoration: none;
-  color: black;
-  font-size: 9.5px;
-  font-weight: bold;
-  text-transform: uppercase;
-}
-.col-md-2 ul ul{
-  display: none;
-}
-.col-md-2 ul li:hover > ul{
-  display: inherit;
-} */
+
 .delete .delete-icon{
   background-color: #4DC942;
   color: #ffffff;
   float: right;
   width: 50px;
   height: 45px;
-}
+} */
 /* ------------------End Menu ------------------------ */
 
 /* ----------------------Event1------------------------ */
